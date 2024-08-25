@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Formulario.css" mdeia="">
+    <title>Formulario De Contato</title>
+   
+</head>
+<body>
+    <div>
+        <h1 id="titulo">Formulario De Contato</h1>
+        <p id="subtitulo"><strong>Preencha Todos Os Campos</strong></p>
+        <br>
+        
+    </div>
+
+    <form>
+        <fieldset class="grupo">
+            <div>
+                <label for="nome"><strong>Nome</strong></label>
+                <input id="nome" type="text" name="nome" required placeholder="Nome Completo" class="entrada">
+
+            </div>
+            <div class="campo">
+                <label for="email"><strong>Email</strong></label>
+                <input id="email" type="email" name="email" required placeholder="E-Email Valido." class="entrada">
+
+            </div>
+            <div class="campo">
+                <label for="Assunto"><strong>Assunto</strong></label>
+            <select name="opcoes" class="entrada">
+                <option value=""></option>
+                <option value="Duvidas Do Produto">duvidas do produto</option>
+                <option value="atraso na entrega">Atraso na Entrega</option>
+
+            </select>
+        
+
+            </div>
+            <div class="campo">
+                <label for="Mensagem"><strong>Mensagem</strong></label>
+                <textarea id="Mensagem" name="Mensagem" placeholder="Sua Mensagem" class="entrada"></textarea>
+    
+
+            </div>
+            <div class="campo">
+                <div class="rotulos">&nbsp;</div>
+                <input class="botao" type="button" value="Enviar" class="botao" />
+            </div>
+
+        </fieldset>
+        <div>
+            <label></label>
+        </div>
+    </form>
+    
+</body>
+</html>
